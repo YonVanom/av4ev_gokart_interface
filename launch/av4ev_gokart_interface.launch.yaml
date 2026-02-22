@@ -1,0 +1,23 @@
+launch:
+- node:
+    pkg: av4ev_gokart_interface
+    exec: av4ev_gokart_interface_node
+    name: av4ev_gokart_interface_node
+    output: screen
+    param:
+      - name: wheelbase_m
+        value: 1.6
+      - name: control_cmd_topic
+        value: /control/command/control_cmd
+      - name: drive_info_topic
+        value: /drive_info_from_nucleo
+      - name: gokart_mode_topic
+        value: /gokart_mode
+      - name: autonomous_command_topic
+        value: /automous_command_to_nucleo
+      - name: control_mode_topic
+        value: /vehicle/status/control_mode
+      - name: steering_status_topic
+        value: /vehicle/status/steering_status
+      - name: velocity_status_topic
+        value: /vehicle/status/velocity_status
