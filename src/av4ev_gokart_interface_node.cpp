@@ -116,6 +116,7 @@ autoware_vehicle_msgs::msg::VelocityReport AV4EVGokartInterfaceNode::convertDriv
   out.lateral_velocity = 0.0F;
   out.heading_rate = static_cast<float>(yaw_rate);
   out.header = drive_info.header;
+  out.header.frame_id = "base_link";
 
   return out;
 }

@@ -46,7 +46,7 @@ private:
   rclcpp::Publisher<autoware_vehicle_msgs::msg::VelocityReport>::SharedPtr
     velocity_status_pub_;
 
-  double wheelbase_m_{1.6};
+  double wheelbase_m_{1.1};
 
   std::string control_cmd_topic_{"/control/command/control_cmd"};
   std::string drive_info_topic_{"/drive_info_from_nucleo"};
