@@ -18,7 +18,7 @@ launch:
       - name: gokart_mode_topic
         value: /gokart_mode
       - name: autonomous_command_topic
-        value: /automous_command_to_nucleo
+        value: /autonomous_command_to_nucleo
       - name: control_mode_topic
         value: /vehicle/status/control_mode
       - name: steering_status_topic

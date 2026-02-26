@@ -51,7 +51,7 @@ private:
   std::string control_cmd_topic_{"/control/command/control_cmd"};
   std::string drive_info_topic_{"/drive_info_from_nucleo"};
   std::string gokart_mode_topic_{"/gokart_mode"};
-  std::string autonomous_command_topic_{"/automous_command_to_nucleo"};
+  std::string autonomous_command_topic_{"/autonomous_command_to_nucleo"};
   std::string control_mode_topic_{"/vehicle/status/control_mode"};
   std::string steering_status_topic_{"/vehicle/status/steering_status"};
   std::string velocity_status_topic_{"/vehicle/status/velocity_status"};
